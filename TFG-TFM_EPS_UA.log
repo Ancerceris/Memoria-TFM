@@ -1,4 +1,4 @@
-This is XeTeX, Version 3.141592653-2.6-0.999997 (MiKTeX 25.4) (preloaded format=xelatex 2025.7.8)  13 JUL 2025 18:02
+This is XeTeX, Version 3.141592653-2.6-0.999997 (MiKTeX 25.4) (preloaded format=xelatex 2025.7.8)  19 JUL 2025 21:08
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -1582,20 +1582,6 @@ Package bigints Info: This is Bigints by Merciadri Luca. on input line 5.
 Package: enumerate 2023/07/04 v3.00 enumerate extensions (DPC)
 \@enLab=\toks65
 )
-! Undefined control sequence.
-l.20 \tikzexternalize
-                     [prefix=archivos/figuras-procesadas/] % Ruta
-? 
-
-! LaTeX Error: Missing \begin{document}.
-
-See the LaTeX manual or LaTeX Companion for explanation.
-Type  H <return>  for immediate help.
- ...                                              
-                                                  
-l.20 \tikzexternalize[
-                      prefix=archivos/figuras-procesadas/] % Ruta
-? 
 (include/configuraciontitulacion.tex)
 \glswrite=\write4
 \glo@main@file=\write5
@@ -1766,34 +1752,7 @@ Package caption Info: supertabular package is loaded.
 Package caption Info: End \AtBeginDocument code.
 Package hyperref Info: Link coloring OFF on input line 97.
 
-
-LaTeX Font Info:    Trying to load font information for U+msa on input line 100
-.
-(C:\Users\anato\AppData\Local\Programs\MiKTeX\tex/latex/amsfonts\umsa.fd
-File: umsa.fd 2013/01/14 v3.01 AMS symbols A
-)
-LaTeX Font Info:    Trying to load font information for U+msb on input line 100
-.
-
-(C:\Users\anato\AppData\Local\Programs\MiKTeX\tex/latex/amsfonts\umsb.fd
-File: umsb.fd 2013/01/14 v3.01 AMS symbols B
-)
-LaTeX Font Info:    Trying to load font information for U+rsfs on input line 10
-0.
-
-(C:\Users\anato\AppData\Local\Programs\MiKTeX\tex/latex/jknappen\ursfs.fd
-File: ursfs.fd 1998/03/24 rsfs font definition file (jk)
-)
-[1
-
-\openout4 = `TFG-TFM_EPS_UA.ist'.
-
-]
-
-[2
-
-
-] (include/portada/portada_color.tex
+(include/portada/portada_color.tex
 
 Package fontspec Info: 
 (fontspec)             Font family 'HelveticaLTStd-Cond(0)' created for font
@@ -1860,6 +1819,24 @@ Invalid UTF-8 byte or sequence at line 57 replaced by U+FFFD.
 Invalid UTF-8 byte or sequence at line 57 replaced by U+FFFD.
 File: include/logos-universidad/LogoEPSBlanco.eps Graphic file (type eps)
 <include/logos-universidad/LogoEPSBlanco.eps>
+LaTeX Font Info:    Trying to load font information for U+msa on input line 63.
+
+
+(C:\Users\anato\AppData\Local\Programs\MiKTeX\tex/latex/amsfonts\umsa.fd
+File: umsa.fd 2013/01/14 v3.01 AMS symbols A
+)
+LaTeX Font Info:    Trying to load font information for U+msb on input line 63.
+
+
+(C:\Users\anato\AppData\Local\Programs\MiKTeX\tex/latex/amsfonts\umsb.fd
+File: umsb.fd 2013/01/14 v3.01 AMS symbols B
+)
+LaTeX Font Info:    Trying to load font information for U+rsfs on input line 63
+.
+
+(C:\Users\anato\AppData\Local\Programs\MiKTeX\tex/latex/jknappen\ursfs.fd
+File: ursfs.fd 1998/03/24 rsfs font definition file (jk)
+)
 File: include/logos-titulaciones/LogoMasterCienciaDatosColor.png Graphic file (
 type bmp)
 <include/logos-titulaciones/LogoMasterCienciaDatosColor.png>
@@ -1890,6 +1867,11 @@ File: include/logos-universidad/LogoUABlanco.eps Graphic file (type eps)
 
 
 [1
+
+\openout4 = `TFG-TFM_EPS_UA.ist'.
+
+
+
 
 
 
@@ -1994,7 +1976,11 @@ Overfull \hbox (20.35634pt too wide) in paragraph at lines 47--67
 [8
 
 
-]
+]) (TFG-TFM_EPS_UA.toc)
+\tf@toc=\write7
+\openout7 = `TFG-TFM_EPS_UA.toc'.
+
+
 
 [9
 
@@ -2004,39 +1990,15 @@ Overfull \hbox (20.35634pt too wide) in paragraph at lines 47--67
 [10
 
 
-]
-
-[11
-
-
-]
-
-[12
-
-
-]) (TFG-TFM_EPS_UA.toc)
-\tf@toc=\write7
-\openout7 = `TFG-TFM_EPS_UA.toc'.
-
-
-
-[13
-
-
-]
-
-[14
-
-
 ] (TFG-TFM_EPS_UA.lof)
 \tf@lof=\write8
 \openout8 = `TFG-TFM_EPS_UA.lof'.
 
 
 
-[15]
+[11]
 
-[16
+[12
 
 
 ] (TFG-TFM_EPS_UA.lot)
@@ -2045,9 +2007,9 @@ Overfull \hbox (20.35634pt too wide) in paragraph at lines 47--67
 
 
 
-[17]
+[13]
 
-[18
+[14
 
 
 ] (TFG-TFM_EPS_UA.lol)
@@ -2056,20 +2018,15 @@ Overfull \hbox (20.35634pt too wide) in paragraph at lines 47--67
 
 
 
-[19]
+[15]
 
-[20
+[16
 
 
 ] (capitulos/Introduccion.tex
 chapter 1.
 
 Underfull \hbox (badness 10000) in paragraph at lines 10--12
-
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 15--17
 
  []
 
@@ -2081,19 +2038,42 @@ Underfull \hbox (badness 10000) in paragraph at lines 15--17
 ]
 
 [2]
+File: archivos/figuras/gantt-chart.jpg Graphic file (type bmp)
+<archivos/figuras/gantt-chart.jpg>
+File: archivos/figuras/learning-stage.jpg Graphic file (type bmp)
+<archivos/figuras/learning-stage.jpg>
 
-[3]) (capitulos/marcoteorico.tex
+Underfull \vbox (badness 4416) has occurred while \output is active []
+
+
+
+[3]
+File: archivos/figuras/research-stage.jpg Graphic file (type bmp)
+<archivos/figuras/research-stage.jpg>
+File: archivos/figuras/implementation-stage.jpg Graphic file (type bmp)
+<archivos/figuras/implementation-stage.jpg>
+
+Underfull \vbox (badness 10000) has occurred while \output is active []
+
+
 
 [4]
-chapter 2.
-) (capitulos/objetivos.tex
+File: archivos/figuras/experimentation-stage.jpg Graphic file (type bmp)
+<archivos/figuras/experimentation-stage.jpg>
+) (capitulos/marcoteorico.tex
 
-[5
+[5]
+
+[6
 
 
 ]
+chapter 2.
+) (capitulos/objetivos.tex
 
-[6
+[7]
+
+[8
 
 
 ]
@@ -2102,9 +2082,9 @@ LaTeX Font Info:    Calculating math sizes for size <9.85492> on input line 52.
 
 ) (capitulos/metodologia.tex
 
-[7]
+[9]
 
-[8]
+[10]
 chapter 4.
 
 ! LaTeX Error: File `archivos/130' not found.
@@ -2213,26 +2193,17 @@ Missing character: There is no º in font cmmi10!
 Missing character: There is no º in font cmmi10!
 ) (capitulos/desarrollo.tex
 
-[9
+[11
 
 
 ]
-
-[10
-
-
-]
-chapter 5.
-) (capitulos/resultados.tex
-
-[11]
 
 [12
 
 
 ]
-chapter 6.
-) (capitulos/conclusiones.tex
+chapter 5.
+) (capitulos/resultados.tex
 
 [13]
 
@@ -2240,8 +2211,8 @@ chapter 6.
 
 
 ]
-chapter 7.
-) (TFG-TFM_EPS_UA.bbl
+chapter 6.
+) (capitulos/conclusiones.tex
 
 [15]
 
@@ -2249,14 +2220,16 @@ chapter 7.
 
 
 ]
-chapter without number
+chapter 7.
+) (TFG-TFM_EPS_UA.bbl
 
-Underfull \hbox (badness 10000) in paragraph at lines 14--26
-[][][][][][] [] [][][][][][][][][][] [] [][][][][][][][][][][][] [] [][][][][][
-] [] [][][] [] [][][][][][][][][][][][][] [] [][][] [] [][][][][][] [] [][][] [
+[17]
+
+[18
+
+
 ]
- []
-
+chapter without number
 Missing character: There is no Р in font [lmroman10-regular]:mapping=tex-text;!
 Missing character: There is no и in font [lmroman10-regular]:mapping=tex-text;!
 Missing character: There is no п in font [lmroman10-regular]:mapping=tex-text;!
@@ -2271,29 +2244,20 @@ Missing character: There is no и in font [lmroman10-regular]:mapping=tex-text;!
 Missing character: There is no к in font [lmroman10-regular]:mapping=tex-text;!
 
 
-[17]
+[19]
 
-[18]
-
-[19])
+[20])
 No file TFG-TFM_EPS_UA.acr.
 (anexos/anexo_I.tex
 
-[20]
-chapter A.
-) (anexos/anexo_2.tex
-
-[21
-
-
-]
+[21]
 
 [22
 
 
 ]
-chapter B.
-) (anexos/anexo_3.tex
+chapter A.
+) (anexos/anexo_2.tex
 
 [23]
 
@@ -2301,38 +2265,32 @@ chapter B.
 
 
 ]
+chapter B.
+) (anexos/anexo_3.tex
+
+[25]
+
+[26
+
+
+]
 chapter C.
 )
 
-! LaTeX Error: \begin{description} on input line 99 ended by \end{document}.
-
-See the LaTeX manual or LaTeX Companion for explanation.
-Type  H <return>  for immediate help.
- ...                                              
-                                                  
-l.153 \end{document}
-                    
-? 
-
-
-[25] (TFG-TFM_EPS_UA.aux)
+[27] (TFG-TFM_EPS_UA.aux)
  ***********
 LaTeX2e <2025-06-01> patch level 1
 L3 programming layer <2020/03/25>
  ***********
  )
-(\end occurred inside a group at level 1)
-
-### semi simple group (level 1) entered at line 99 (\begingroup)
-### bottom level
 (\end occurred when \if on line 52 was incomplete) 
 Here is how much of TeX's memory you used:
- 47833 strings out of 403337
- 1031612 string characters out of 5463040
- 1698789 words of memory out of 5000000
- 75369 multiletter control sequences out of 15000+600000
- 653765 words of font info for 186 fonts, out of 8000000 for 9000
+ 47866 strings out of 403337
+ 1033428 string characters out of 5463040
+ 1699840 words of memory out of 5000000
+ 75407 multiletter control sequences out of 15000+600000
+ 647583 words of font info for 161 fonts, out of 8000000 for 9000
  1348 hyphenation exceptions out of 8191
- 113i,20n,110p,11008b,1220s stack positions out of 10000i,1000n,20000p,200000b,200000s
+ 113i,20n,110p,11008b,894s stack positions out of 10000i,1000n,20000p,200000b,200000s
 
-Output written on TFG-TFM_EPS_UA.pdf (47 pages).
+Output written on TFG-TFM_EPS_UA.pdf (43 pages).
