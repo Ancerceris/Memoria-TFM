@@ -5,6 +5,73 @@
 % Contacto: info@jmrplens.com / Telegram:@jmrplens
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 
+\chapter*{Justification}
+\thispagestyle{empty}
+
+\section{Rationale for an Automated, Deep Learning-Based Framework}
+
+The motivation for this thesis is rooted in the significant limitations of traditional ornithological observation methods, which are often labor-intensive, spatially and temporally constrained, and prone to observer bias. This chapter provides a detailed justification for the selection of an automated, deep learning-based framework as the most effective and robust solution to these challenges. The proposed approach is not merely an application of new technology, but a deliberate methodological shift towards a more objective, scalable, and data-rich paradigm for behavioral analysis, a field now often referred to as \textbf{computational neuroethology}.
+
+The decision to move beyond manual annotation is justified by three primary advantages offered by a computational approach:
+\begin{enumerate}
+    \item \textbf{Objectivity and Reproducibility:} Machine learning models operate based on consistent mathematical rules, eliminating the subjective variability and observer drift inherent in human annotation. This creates a standardized, reproducible methodology that is essential for rigorous scientific inquiry.
+    \item \textbf{Scalability and Efficiency:} Automated systems can process thousands of hours of video data, a scale that is infeasible for human researchers. This allows for the analysis of long-term behavioral patterns and the inclusion of much larger datasets, increasing the statistical power and generalizability of the findings.
+    \item \textbf{High-Resolution Data Extraction:} Deep learning models can analyze video on a frame-by-frame basis, providing millisecond-level temporal resolution. This precision is critical for studying the micro-kinematics of rapid behaviors (e.g., feeding, take-off, social interactions) and for aligning behavioral events with other high-frequency data streams, such as neural recordings.
+\end{enumerate}
+In essence, a deep learning framework transforms behavioral analysis from a qualitative, manually intensive task into a quantitative, automated science.
+
+\section{Justification of the Two-Stage Analysis Pipeline}
+
+While the term "deep learning" is broad, its effective application to behavior analysis relies on a specific and highly successful two-stage pipeline. Instead of a single, monolithic network that learns to classify actions from raw pixels, the state-of-the-art approach decouples the problem into: 1) postural representation via pose-estimation, and 2) behavioral classification based on posture dynamics. This thesis adopts this validated methodology.
+
+\subsection{Stage 1: From Bounding Boxes to Markerless Pose-Estimation}
+Initial object detection and tracking, using models like \textbf{YOLO} and \textbf{DeepSORT}, are justified as a necessary first step to locate and identify individual birds within video frames. This approach provides a bounding box and a persistent identity for each subject, which is fundamental for any multi-animal analysis.
+
+However, a simple bounding box is insufficient for detailed behavioral classification. It reveals an animal's location but provides no information about its posture, orientation, or the configuration of its limbs. Recognizing the difference between preening, foraging, and resting requires a far richer representation of the bird's body.
+
+For this reason, this thesis justifies the use of \textbf{markerless pose-estimation} as the core of its data extraction engine. Tools like \textbf{DeepLabCut} and \textbf{DeepPoseKit} , which are built upon powerful convolutional neural network architectures, allow for the precise tracking of user-defined keypoints (e.g., head, beak tip, wing tips, tail base, feet) without the need for physical markers. This approach is justified because it:
+\begin{itemize}
+    \item \textbf{Provides Kinematic Data:} It transforms the unstructured pixel data of a video into a structured time-series of coordinates for each body part. This kinematic skeleton is a rich, quantitative representation of the bird's posture and movement.
+    \item \textbf{Enables Fine-Grained Analysis:} It allows for the measurement of subtle postural changes that are the defining features of many behaviors, something impossible with bounding box-based tracking.
+    \item \textbf{Is Non-Invasive:} Unlike traditional tagging methods, it allows for the study of animals in their natural state, ensuring that the observed behaviors are authentic.
+\end{itemize}
+
+\subsection{Stage 2: Feature Engineering and Supervised Classification}
+Once the kinematic data is extracted, it provides the foundation for the second stage: classification. The raw coordinate data is first used to engineer a comprehensive set of \textbf{behavioral features}. This step is justified because it translates the abstract postural data into biologically meaningful metrics. As demonstrated in frameworks like SimBA and PyRAT, these features can include:
+\begin{itemize}
+    \item The velocity and acceleration of individual keypoints (e.g., the head).
+    \item The distance and relative angles between pairs of keypoints (e.g., distance between wing tips to measure wing extension).
+    \item Geometric properties of the animal's posture (e.g., the area of the convex hull of the body).
+\end{itemize}
+With this high-dimensional feature set, the final step is to train a \textbf{supervised machine learning classifier}. The choice of a supervised model, such as a Random Forest or Support Vector Machine from the \textbf{scikit-learn} library, is justified because the project aims to identify specific, pre-defined behaviors of ornithological interest. This approach leverages expert knowledge (through manual annotation of a training dataset) to build highly accurate and robust classifiers for these target behaviors. This methodology has been shown to achieve, and even exceed, human-level accuracy for behavioral scoring.
+
+\section{Justification of the Core Technology Stack}
+
+The selection of a specific set of software libraries and frameworks is a critical decision that directly impacts the feasibility, efficiency, and extensibility of the project. The technology stack proposed in this thesis represents a synthesis of industry-standard and state-of-the-art tools, each chosen for a specific and justified purpose.
+
+\begin{itemize}
+    \item \textbf{Python:} The choice of Python as the primary programming language is justified by its status as the \textit{lingua franca} of data science and artificial intelligence. Its extensive ecosystem of mature libraries for scientific computing, data manipulation, and machine learning is unparalleled, making it the most efficient choice for a project of this nature.
+
+    \item \textbf{TensorFlow and PyTorch:} The use of one or both of these leading deep learning frameworks is justified by their power and flexibility in building and training neural networks. They provide robust GPU acceleration, automatic differentiation, and access to a vast repository of pre-trained models. The ability to use \textbf{transfer learning}—fine-tuning a model pre-trained on a large dataset like ImageNet—dramatically reduces the amount of labeled data required for training the pose-estimation models, making the project feasible within the scope of a master's thesis.
+
+    \item \textbf{OpenCV:} This library is the cornerstone of any computer vision project. Its inclusion is justified by its indispensable and highly optimized functions for core video processing tasks, including reading and writing video files, frame extraction, color space conversion, and image pre-processing.
+
+    \item \textbf{Pandas and Scikit-learn:} Once pose-estimation is complete, the data transitions from unstructured video to structured tabular data (i.e., coordinates over time). \textbf{Pandas} is the industry standard for handling such data, and its use is justified for its efficiency in storing, manipulating, and analyzing the feature sets. \textbf{Scikit-learn} is the most comprehensive and well-documented library for classical machine learning in Python, making it the natural and justified choice for implementing the final supervised classification stage.
+\end{itemize}
+
+\section{Justification for an Interactive Visualization Platform}
+
+The final component of this thesis is the development of a web-based visualization platform. This is not a mere technical add-on but is justified as a crucial element for ensuring the project's scientific contribution and impact. The raw output of the analysis pipeline—vast tables of coordinates and classification probabilities—is not readily interpretable by end-users such as ecologists or conservationists. A visualization platform serves as the bridge between complex data and actionable insight.
+
+\begin{itemize}
+    \item \textbf{Flask:} The choice of Flask as the web framework is justified by its lightweight, modular, and "Pythonic" nature. It provides the necessary tools to build a robust backend API that can serve the processed behavioral data to a web client without the overhead of larger, more monolithic frameworks.
+
+    \item \textbf{CesiumJS:} The selection of CesiumJS for the frontend is justified by its powerful capabilities as an open-source 3D globe and map engine. For analyzing bird movement data, which is inherently geospatial (habitat use, migratory paths), a platform that can render trajectories and behavioral statistics on a realistic 3D representation of the Earth is invaluable. It transforms abstract data points into an intuitive and interactive exploration tool, thereby fulfilling the goal of making the project's outputs accessible and useful to a non-technical audience.
+\end{itemize}
+In conclusion, the entire methodological and technological framework of this thesis is built upon a foundation of state-of-the-art, validated, and synergistic components. The choices are deliberately made to create a pipeline that is not only technically sound but also scientifically rigorous, scalable, and ultimately, impactful for the field of ecological monitoring.
+
+\cleardoublepage %salta a nueva página impar
+
 \chapter*{Abstract}
 \thispagestyle{empty}
 

@@ -1,4 +1,4 @@
-This is XeTeX, Version 3.141592653-2.6-0.999997 (MiKTeX 25.4) (preloaded format=xelatex 2025.7.8)  19 JUL 2025 21:08
+This is XeTeX, Version 3.141592653-2.6-0.999997 (MiKTeX 25.4) (preloaded format=xelatex 2025.7.8)  24 JUL 2025 01:46
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -1963,26 +1963,15 @@ Overfull \hbox (20.35634pt too wide) in paragraph at lines 47--67
 
 [5]
 
-[6
+[6]
 
+[7]
 
-]
-
-[7
-
-
-]
-
-[8
-
-
-]) (TFG-TFM_EPS_UA.toc)
-\tf@toc=\write7
-\openout7 = `TFG-TFM_EPS_UA.toc'.
-
-
+[8]
 
 [9
+
+
 
 
 ]
@@ -1990,26 +1979,53 @@ Overfull \hbox (20.35634pt too wide) in paragraph at lines 47--67
 [10
 
 
-] (TFG-TFM_EPS_UA.lof)
+]
+
+[11
+
+
+]
+
+[12
+
+
+]) (TFG-TFM_EPS_UA.toc
+
+[13
+
+
+])
+\tf@toc=\write7
+\openout7 = `TFG-TFM_EPS_UA.toc'.
+
+
+
+[14] (TFG-TFM_EPS_UA.lof
+Underfull \vbox (badness 10000) has occurred while \output is active []
+
+
+
+[15
+
+
+])
 \tf@lof=\write8
 \openout8 = `TFG-TFM_EPS_UA.lof'.
 
 
 
-[11]
-
-[12
-
-
-] (TFG-TFM_EPS_UA.lot)
+[16] (TFG-TFM_EPS_UA.lot)
 \tf@lot=\write9
 \openout9 = `TFG-TFM_EPS_UA.lot'.
 
 
 
-[13]
+[17
 
-[14
+
+]
+
+[18
 
 
 ] (TFG-TFM_EPS_UA.lol)
@@ -2018,9 +2034,9 @@ Overfull \hbox (20.35634pt too wide) in paragraph at lines 47--67
 
 
 
-[15]
+[19]
 
-[16
+[20
 
 
 ] (capitulos/Introduccion.tex
@@ -2069,228 +2085,115 @@ File: archivos/figuras/experimentation-stage.jpg Graphic file (type bmp)
 
 ]
 chapter 2.
-) (capitulos/objetivos.tex
+
 
 [7]
+File: archivos/figuras/convolution.jpg Graphic file (type bmp)
+<archivos/figuras/convolution.jpg>
 
-[8
 
+[8]
+File: archivos/figuras/ViT.jpg Graphic file (type bmp)
+<archivos/figuras/ViT.jpg>
+File: archivos/figuras/hvt.jpg Graphic file (type bmp)
+<archivos/figuras/hvt.jpg>
 
-]
-chapter 3.
-LaTeX Font Info:    Calculating math sizes for size <9.85492> on input line 52.
-
-) (capitulos/metodologia.tex
 
 [9]
+File: archivos/figuras/cmt.jpg Graphic file (type bmp)
+<archivos/figuras/cmt.jpg>
+
 
 [10]
-chapter 4.
+File: archivos/figuras/CNN.jpg Graphic file (type bmp)
+<archivos/figuras/CNN.jpg>
 
-! LaTeX Error: File `archivos/130' not found.
-
-See the LaTeX manual or LaTeX Companion for explanation.
-Type  H <return>  for immediate help.
- ...                                              
-                                                  
-l.18 \includegraphics[scale=0.2]{archivos/130}
-                                               & \includegraphics[scale=0.2]...
-
-? 
-
-! LaTeX Error: File `archivos/160' not found.
-
-See the LaTeX manual or LaTeX Companion for explanation.
-Type  H <return>  for immediate help.
- ...                                              
-                                                  
-l.18 ... \includegraphics[scale=0.2]{archivos/160}
-                                                   & \includegraphics[scale=...
-
-? 
-
-! LaTeX Error: File `archivos/190' not found.
-
-See the LaTeX manual or LaTeX Companion for explanation.
-Type  H <return>  for immediate help.
- ...                                              
-                                                  
-l.18 ... \includegraphics[scale=0.2]{archivos/190}
-                                                   \\
-? 
-Missing character: There is no º in font cmmi10!
-Missing character: There is no º in font cmmi10!
-Missing character: There is no º in font cmmi10!
-
-! LaTeX Error: File `archivos/230' not found.
-
-See the LaTeX manual or LaTeX Companion for explanation.
-Type  H <return>  for immediate help.
- ...                                              
-                                                  
-l.20 \includegraphics[scale=0.2]{archivos/230}
-                                               & \includegraphics[scale=0.2]...
-
-? 
-
-! LaTeX Error: File `archivos/260' not found.
-
-See the LaTeX manual or LaTeX Companion for explanation.
-Type  H <return>  for immediate help.
- ...                                              
-                                                  
-l.20 ... \includegraphics[scale=0.2]{archivos/260}
-                                                   & \includegraphics[scale=...
-
-? 
-
-! LaTeX Error: File `archivos/290' not found.
-
-See the LaTeX manual or LaTeX Companion for explanation.
-Type  H <return>  for immediate help.
- ...                                              
-                                                  
-l.20 ... \includegraphics[scale=0.2]{archivos/290}
-                                                   \\
-? 
-Missing character: There is no º in font cmmi10!
-Missing character: There is no º in font cmmi10!
-Missing character: There is no º in font cmmi10!
-
-! LaTeX Error: File `archivos/330' not found.
-
-See the LaTeX manual or LaTeX Companion for explanation.
-Type  H <return>  for immediate help.
- ...                                              
-                                                  
-l.22 \includegraphics[scale=0.2]{archivos/330}
-                                               & \includegraphics[scale=0.2]...
-
-? 
-
-! LaTeX Error: File `archivos/360' not found.
-
-See the LaTeX manual or LaTeX Companion for explanation.
-Type  H <return>  for immediate help.
- ...                                              
-                                                  
-l.22 ... \includegraphics[scale=0.2]{archivos/360}
-                                                   & \includegraphics[scale=...
-
-? 
-
-! LaTeX Error: File `archivos/390' not found.
-
-See the LaTeX manual or LaTeX Companion for explanation.
-Type  H <return>  for immediate help.
- ...                                              
-                                                  
-l.22 ... \includegraphics[scale=0.2]{archivos/390}
-                                                   \\
-? 
-Missing character: There is no º in font cmmi10!
-Missing character: There is no º in font cmmi10!
-Missing character: There is no º in font cmmi10!
-) (capitulos/desarrollo.tex
-
-[11
+Underfull \vbox (badness 3058) has occurred while \output is active []
 
 
-]
 
-[12
+[11]
+File: archivos/figuras/recognition.jpg Graphic file (type bmp)
+<archivos/figuras/recognition.jpg>
+
+Underfull \vbox (badness 10000) has occurred while \output is active []
 
 
-]
-chapter 5.
-) (capitulos/resultados.tex
+
+[12]
+File: archivos/figuras/dvs.jpg Graphic file (type bmp)
+<archivos/figuras/dvs.jpg>
+
+Underfull \vbox (badness 10000) has occurred while \output is active []
+
+
 
 [13]
+Overfull \vbox (51.58792pt too high) has occurred while \output is active []
 
-[14
 
 
-]
-chapter 6.
-) (capitulos/conclusiones.tex
+[14]
 
 [15]
+File: archivos/figuras/comparison.jpg Graphic file (type bmp)
+<archivos/figuras/comparison.jpg>
 
-[16
+Underfull \vbox (badness 10000) has occurred while \output is active []
 
 
-]
-chapter 7.
-) (TFG-TFM_EPS_UA.bbl
+
+[16]
+Underfull \vbox (badness 10000) has occurred while \output is active []
+
+
 
 [17]
+File: archivos/figuras/extraction.jpg Graphic file (type bmp)
+<archivos/figuras/extraction.jpg>
 
-[18
 
+[18]
+File: archivos/figuras/architecture.jpg Graphic file (type bmp)
+<archivos/figuras/architecture.jpg>
 
-]
-chapter without number
-Missing character: There is no Р in font [lmroman10-regular]:mapping=tex-text;!
-Missing character: There is no и in font [lmroman10-regular]:mapping=tex-text;!
-Missing character: There is no п in font [lmroman10-regular]:mapping=tex-text;!
-Missing character: There is no о in font [lmroman10-regular]:mapping=tex-text;!
-Missing character: There is no л in font [lmroman10-regular]:mapping=tex-text;!
-Missing character: There is no К in font [lmroman10-regular]:mapping=tex-text;!
-Missing character: There is no л in font [lmroman10-regular]:mapping=tex-text;!
-Missing character: There is no а in font [lmroman10-regular]:mapping=tex-text;!
-Missing character: There is no с in font [lmroman10-regular]:mapping=tex-text;!
-Missing character: There is no с in font [lmroman10-regular]:mapping=tex-text;!
-Missing character: There is no и in font [lmroman10-regular]:mapping=tex-text;!
-Missing character: There is no к in font [lmroman10-regular]:mapping=tex-text;!
+Overfull \hbox (8.37877pt too wide) in paragraph at lines 224--225
+\TU/lmr/m/n/10.95 neuroscience and psychology. However, the traditional method 
+for quantifying these behaviors—
+ []
+
 
 
 [19]
+File: archivos/figuras/animal_tracking.jpg Graphic file (type bmp)
+<archivos/figuras/animal_tracking.jpg>
 
-[20])
-No file TFG-TFM_EPS_UA.acr.
-(anexos/anexo_I.tex
+Underfull \vbox (badness 7012) has occurred while \output is active []
+
+
+
+[20]
 
 [21]
+File: archivos/figuras/flowchart_simba.jpg Graphic file (type bmp)
+<archivos/figuras/flowchart_simba.jpg>
 
-[22
+
+[22]
+File: archivos/figuras/permutation.jpg Graphic file (type bmp)
+<archivos/figuras/permutation.jpg>
+
+Underfull \vbox (badness 10000) has occurred while \output is active []
 
 
-]
-chapter A.
-) (anexos/anexo_2.tex
 
 [23]
+File: archivos/figuras/pyrat_1a.jpg Graphic file (type bmp)
+<archivos/figuras/pyrat_1a.jpg>
 
-[24
-
-
-]
-chapter B.
-) (anexos/anexo_3.tex
-
-[25]
-
-[26
+Underfull \vbox (badness 10000) has occurred while \output is active []
 
 
-]
-chapter C.
-)
 
-[27] (TFG-TFM_EPS_UA.aux)
- ***********
-LaTeX2e <2025-06-01> patch level 1
-L3 programming layer <2020/03/25>
- ***********
- )
-(\end occurred when \if on line 52 was incomplete) 
-Here is how much of TeX's memory you used:
- 47866 strings out of 403337
- 1033428 string characters out of 5463040
- 1699840 words of memory out of 5000000
- 75407 multiletter control sequences out of 15000+600000
- 647583 words of font info for 161 fonts, out of 8000000 for 9000
- 1348 hyphenation exceptions out of 8191
- 113i,20n,110p,11008b,894s stack positions out of 10000i,1000n,20000p,200000b,200000s
-
-Output written on TFG-TFM_EPS_UA.pdf (43 pages).
+[24]
+File
